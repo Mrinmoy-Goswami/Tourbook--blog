@@ -8,7 +8,7 @@ const postRoute = require('./routes/posts')
 const cors = require('cors')
 const multer = require("multer");
 const path = require("path");
-const BASE_URL = process.env.BASE_URL;
+// const BASE_URL = process.env.BASE_URL;
 
 
 dotenv.config();
